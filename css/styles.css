@@ -1,7 +1,10 @@
 @import "/css/_color.css";
-@import "/css/_main.css";
+
 @import "/css/_menu.css";
 @import "/css/_footer.css";
+
+@import "/css/_main.css";
+@import "/css/_about.css";
 
 
 *,

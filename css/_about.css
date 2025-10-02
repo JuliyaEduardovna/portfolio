@@ -1,0 +1,65 @@
+.about {
+  padding-bottom: 2rem;
+}
+
+.about__bio-text {
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.about__bio-text p {
+  margin-bottom: 2rem;
+}
+
+.about__bio {
+  width: 80%;
+  text-align: center;
+}
+
+.about__bio .text-gradient {
+  padding-bottom: 1rem;
+}
+
+.about .jobs {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.about .jobs__job {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.about .jobs__job h2,
+.about .jobs__job h3 {
+  margin: 0.5rem 0;
+
+}
+
+.about .jobs__job h5 {
+  margin: 0.3rem 0;
+}
+
+.about footer {
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+@media screen and (min-width: 768px) {
+  .about__bio {
+    font-size: 1.5rem;
+  }
+  .about__bio-text{
+      height: 40vh;
+  }
+}
