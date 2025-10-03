@@ -3,4 +3,5 @@
   --text-color: #fff;
   --accent-color: #00a89b;
   --background-color-menu: #373a40;
+  --overlay: linear-gradient(90deg, #1abc9c,#1f2c51);
 }
